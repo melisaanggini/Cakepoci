@@ -1,0 +1,118 @@
+/* public/css/login.css */
+
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background gradient */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #9C90FC, #E05A29);
+}
+
+/* Card Container */
+.auth-card {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 380px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Title */
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Labels */
+.auth-card label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    color: #444;
+}
+
+/* Input */
+.auth-card input[type="email"],
+.auth-card input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.auth-card input:focus {
+    border-color: #060034;
+    outline: none;
+    box-shadow: 0 0 8px rgba(156,144,252,0.4);
+}
+
+/* Checkbox + Remember Me */
+.auth-card .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.auth-card .remember-me input {
+    margin-right: 0.4rem;
+}
+
+/* Button */
+.auth-card button {
+    width: 100%;
+    background: #9C90FC;
+    border: none;
+    padding: 0.9rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.auth-card button:hover {
+    background: #7d70e0;
+}
+
+/* Forgot Password */
+.auth-card .forgot {
+    text-align: right;
+    margin-top: 0.8rem;
+}
+
+.auth-card .forgot a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #E05A29;
+    transition: 0.3s ease;
+}
+
+.auth-card .forgot a:hover {
+    color: #9C90FC;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
