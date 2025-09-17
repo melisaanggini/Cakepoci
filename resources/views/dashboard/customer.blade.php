@@ -9,11 +9,13 @@
     <header>Customer Dashboard - Cakepoci</header>
     <div class="container">
         <div class="product-card">
+            <img src="{{ asset('image/brownies.jpg') }}" alt="Brownies Cokelat" style="width:100%;height:auto;">
             <h3>Brownies Cokelat</h3>
             <p>Rp 45.000</p>
             <button>Pesan Sekarang</button>
         </div>
         <div class="product-card">
+            <img src="{{ asset('image/cheescake.jpg') }}" alt="Cheesecake" style="width:100%;height:auto;">
             <h3>Cheesecake</h3>
             <p>Rp 60.000</p>
             <button>Pesan Sekarang</button>

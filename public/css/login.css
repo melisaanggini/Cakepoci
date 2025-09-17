@@ -8,32 +8,32 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Background gradient */
+/* Background pastel */
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #9C90FC, #E05A29);
+    background: linear-gradient(135deg, #EADFFB, #FBE4E0);
 }
 
 /* Card Container */
 .auth-card {
     background: #fff;
-    padding: 2.5rem;
-    border-radius: 16px;
-    width: 380px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    padding: 2rem 2.5rem;
+    border-radius: 18px;
+    width: 360px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.6s ease-in-out;
 }
 
 /* Title */
 .auth-card h2 {
     text-align: center;
-    margin-bottom: 1.8rem;
-    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    color: #333;
+    color: #444;
 }
 
 /* Labels */
@@ -42,7 +42,7 @@ body {
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 0.3rem;
-    color: #444;
+    color: #555;
 }
 
 /* Input */
@@ -52,15 +52,16 @@ body {
     padding: 0.8rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 12px;
     transition: all 0.3s ease;
     font-size: 0.95rem;
+    background-color: #fafafa;
 }
 
 .auth-card input:focus {
-    border-color: #060034;
+    border-color: #b29dd9;
     outline: none;
-    box-shadow: 0 0 8px rgba(156,144,252,0.4);
+    box-shadow: 0 0 6px rgba(178, 157, 217, 0.5);
 }
 
 /* Checkbox + Remember Me */
@@ -68,8 +69,8 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 0.85rem;
+    color: #666;
 }
 
 .auth-card .remember-me input {
@@ -79,10 +80,10 @@ body {
 /* Button */
 .auth-card button {
     width: 100%;
-    background: #9C90FC;
+    background: #B29DD9; /* pastel purple */
     border: none;
     padding: 0.9rem;
-    border-radius: 10px;
+    border-radius: 12px;
     font-size: 1rem;
     color: white;
     font-weight: 600;
@@ -91,7 +92,7 @@ body {
 }
 
 .auth-card button:hover {
-    background: #7d70e0;
+    background: #9c84c9;
 }
 
 /* Forgot Password */
@@ -103,12 +104,12 @@ body {
 .auth-card .forgot a {
     text-decoration: none;
     font-size: 0.85rem;
-    color: #E05A29;
+    color: #FF9A8B; /* pastel coral */
     transition: 0.3s ease;
 }
 
 .auth-card .forgot a:hover {
-    color: #9C90FC;
+    color: #B29DD9;
 }
 
 /* Animation */
